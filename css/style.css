@@ -1,0 +1,44 @@
+.answers-class{
+		width: 700px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+
+}
+.answer{
+	height: 300px;
+	width: 250px;
+	background: #D8D8D8;
+	margin: 20px;
+	padding-top: 100px;
+	text-align: center;
+	font-size: 20px;
+}
+.answer:hover{
+	cursor: pointer;
+	background:#333;
+	color: white;
+}
+.italian{
+	background-image: url("../assets/italian.png");
+	width:500px;
+	height: 500px;
+}
+
+
+.french{
+	background-image: url("../assets/french.png");
+	width:500px;
+	height: 500px;
+}
+.sushi{
+background-image: url("../assets/sushi.png");
+	width:500px;
+	height: 500px;
+}
+.israeli{
+	background-image: url("../assets/israeli.png");
+	width:500px;
+	height: 500px;
+}
+}
